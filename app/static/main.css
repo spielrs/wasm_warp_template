@@ -3,13 +3,24 @@ body {
   margin: 0;
 }
 
-.navbar-item {
+.navbar.outline.info .navbar-item {
+  padding: 0;
+  height: 100%;
+}
+.navbar.outline.info .navbar-item a {
   text-decoration: none;
   color: inherit;
+  display: block;
+  height: 100%;
+  padding: 10px;
+  width: 100%;
+}
+.navbar.outline.info .navbar-item a:focus {
+  outline: none;
 }
 
 .content {
-  margin: 20% 40%;
+  margin: 15% 40%;
 }
 
 /*# sourceMappingURL=main.css.map */
